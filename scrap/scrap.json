@@ -1,0 +1,42 @@
+[{
+	"url": "https://cloud.gravit.io/market",
+	"path": "template.social-media",
+	"type": "application%2Fgravit%2Bdesign",
+	"file": "../api/json_files/market_template_social_media.json"
+},
+{
+	"url": "https://cloud.gravit.io/market",
+	"path": "template.presentation",
+	"type": "application%2Fgravit%2Bdesign",
+	"file": "../api/json_files/market_template_present.json"
+},
+{
+	"url": "https://cloud.gravit.io/market",
+	"path": "template.poster",
+	"type": "application%2Fgravit%2Bdesign",
+	"file": "../api/json_files/market_template_poster.json"
+},
+{
+	"url": "https://cloud.gravit.io/market",
+	"path": "template.facebook-post",
+	"type": "application%2Fgravit%2Bdesign",
+	"file": "../api/json_files/market_template_facebook_post.json"
+},
+{
+	"url": "https://cloud.gravit.io/market",
+	"path": "template.blog-graphic",
+	"type": "application%2Fgravit%2Bdesign",
+	"file": "../api/json_files/market_template_blog_graphic.json"
+},
+{
+	"url": "https://cloud.gravit.io/market",
+	"path": "template.a4",
+	"type": "application%2Fgravit%2Bdesign",
+	"file": "../api/json_files/market_template_a4.json"
+},
+{
+	"url": "https://cloud.gravit.io/market",
+	"path": "template.card",
+	"type": "application%2Fgravit%2Bdesign",
+	"file": "../api/json_files/market_template_card.json"
+}]

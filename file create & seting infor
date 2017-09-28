@@ -1,0 +1,21 @@
+1. GET https://dey61q2n7fveq.cloudfront.net/files/wr1alzcqdgaeyufq?v=2et6y&Expires=1505631316&Key-Pair-Id=APKAJ2BEHC5OIBJVAP5Q&Signature=jav5KRuQfktbGWvrWMIa-vrBtokLDfkD9TyX9iFYVg7-IK2sUBfi1iNCH~3SGv~qOIu1Gu5iXWpjvwg85I67fL9TEIYDkAzXbDnAG8cSpA7unX44axBNJMrZU3ffFt9TSCw6I-74-M92irc1xMTid8vZXUUP6qLYAnY~E3FJdoJcfvJj6SUG4k-uObPIrzQT7ay7YpGz717YN3i0UB0I0rApXNUvr45vIMoVQivCdorSuxgnoHV~845bpdlS0wk7To9rJOMBb7-76dVkcLTU8aWwRfQl5qPfoWJ6VLTQtoP7wOjj99xG7Bm4UlpJ8JcEyFqUGSHaFBP1fAnyPZy46w__
+2. POST https://cloud.gravit.io/file
+   payload : {"name":"Untitled Document","type":"application/gravit+design","width":"42","height":"59.4","unit":"cm","trashed":null}
+
+   Response : {"id":"rJOQoGq9-"}
+
+3. GET font-download : https://fonts.gstatic.com/s/montserrat/v10/aEu-9ATAroJ1iN4zmQ55Bp0EAVxt0G0biEntp43Qt6E.ttf
+
+4. GET font-download : https://fonts.gstatic.com/s/montserrat/v10/BYPM-GE291ZjIXBWrtCwepp-63r6doWhTEbsfBIRJ7A.ttf
+
+5. GET font-download : https://fonts.gstatic.com/s/montserrat/v10/zhwB3-BAdyKDf0geWr9Ft0D2ttfZwueP-QU272T9-k4.ttf
+
+6. OPTIONS : https://cloud.gravit.io/file/rJOQoGq9-/urls/WO2uOXSz1wAEqPAu
+
+7. OPTIONS : https://cloud.gravit.io/file/rJOQoGq9-/urls/WO2uOXSz1wAEqPAu
+
+8. OPTIONS : https://cloud.gravit.io/file/rJOQoGq9-/urls
+
+9. PUT : https://cloud.gravit.io/file/rJOQoGq9-/urls
+	payload: {"type":"application/gravit+design","type_t":"image/jpeg"}
+10. 

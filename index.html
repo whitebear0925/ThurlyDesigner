@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" href="designer.browser.default.css?v=7Oho0c" />
+  <script>
+
+	if (navigator.userAgent.match(/\bMobile\b/) && navigator.userAgent.match(/\bSafari\b/)) {
+	  var c = document.createElement('canvas').getContext('2d');
+	  var size = c.canvas.width = c.canvas.height = 256;
+	  c.fillRect(0, 0, size, size);
+	  c.textAlign = 'center';
+	  c.textBaseline = 'middle';
+	  c.font = '100px HelveticaNeue-Thin';
+	  c.fillStyle = 'white';
+	  c.fillText('T', 128, 128);
+	  document.write('<link rel="apple-touch-icon" href="' + c.canvas.toDataURL() + '">');
+	}
+
+	var devMode = true;
+	var site_url;
+	var php_api_url;
+	var original_api_url = "https://cloud.gravit.io";
+	if(devMode) {
+		site_url = "http://localhost/designer2";
+		php_api_url = "http://localhost/designer2/api";
+
+	} else {
+		site_url = "https://designer.ventequity.com";
+		php_api_url = "https://designer.ventequity.com/api";
+	}
+</script>
+</head>
+
+<body class="loading">
+    <script src="jquery.js"></script>
+    <script src="web_hook.js"></script>
+    <script src="designer.browser.js?v=MthD9l"></script>
+</body>
+
+</html>
